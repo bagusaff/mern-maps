@@ -1,4 +1,4 @@
-aplikasi untuk menyimpan data alamat teman-teman kelas smk
+aplikasi untuk menyimpan data alamat teman-teman kelas smk asuuuuuu
 
 ### TODO
 ### BACKEND
