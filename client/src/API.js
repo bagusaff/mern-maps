@@ -1,4 +1,4 @@
-const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000' : 'https://travel.now.sh';
+const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000' : 'https://petatkj.herokuapp.com/';
 require('dotenv').config();
 const api_key=process.env.REACT_APP_API_KEY;
 export async function listHomeAddress() {
