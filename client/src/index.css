@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+.marker {
+  transform: translate(-50%, -50%);
+}
+.number{
+  position: absolute;
+  transform: translate(-50%, -150%);
+  font-size: small;
+  font-weight: bold;
+  color: darkslategray;
+}
+.error {
+  color: #f05305;
+}
+
+.marker.red path {
+  fill: #f05305;
+}
+
+.marker.yellow path {
+  fill: #F3B73E;
+}
+
+.mapboxgl-popup-content {
+  padding: 0 !important;
+}
+
+.popup img {
+  
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.card-img-top{
+  max-height: 13rem !important;
+  max-width: 18rem !important;
+}
+
+.entry-form label,
+.entry-form input,
+.entry-form textarea,
+.entry-form button {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  display: block;
+  width: 100%;
+}
+
+.entry-form {
+  height: auto;
+  width: auto;
+  padding: 5px;
+}
+
+.credit{
+  font-weight: lighter !important;
+  font-size: xx-small !important;
+  font-style: italic;
+  text-align: center;
+  position: relative;
+}
+
+.card {
+  border: none !important;
+}
