@@ -1,11 +1,12 @@
-aplikasi untuk menyimpan data alamat teman-teman kelas smk asuuuuuu
+aplikasi untuk menyimpan data alamat teman-teman kelas smk
+
+### http://petatkj.herokuapp.com
 
 ### TODO
 
 ### BACKEND
 * [x]Setup Server
 *    [x]Install dependensi
-*    [x]Setup Linter
 *    [x]Setup Express App
 *    [x]Membuat middlewares untuk error handling
 * [x]Memodelkan database
@@ -18,10 +19,18 @@ aplikasi untuk menyimpan data alamat teman-teman kelas smk asuuuuuu
 * [x]Setup Map SDK untuk client
 * [x]Menampilkan semua alamat pada map
 * [x]Mengaktifkan fitur upload foto
-* []Deploy Apps
+* [x]Deploy Apps 
 
 ### Update 03/10/2020
 * menambahkan dependensi bootstrap untuk tampilan
 * menambahkan nomor absen pada peta dibawah penanda alamat
 * memodifikasi form penambahan alamat
 * memodifikasi popup card alamat
+
+### Update 19/10/2020
+* menata ulang folder agar mudah dikonfigurasi 
+* menambah pengaturan untuk deploy ke heroku
+* deploy ke heroku
+* menghapus eslint 
+
+
